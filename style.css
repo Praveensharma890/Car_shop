@@ -1,0 +1,96 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family : Arial, Helvetica, sans-serif;
+}
+.header_section{
+  width : 100%;
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  flex-wrap : wrap;
+  padding : 1rem 2rem;
+  background-color : #070709;
+  border-bottom : 1px solid white;
+}
+.head_title{
+  color : white;
+}
+.head_links{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 1rem;
+  flex-wrap : wrap;
+}
+.head_links .link{
+  list-style : none;
+}
+.head_links .link a{
+  text-decoration : none;
+  font-size : clamp(1rem,2vw,1.5rem);
+  color : #eeeeee;
+  transition : 0.3s ease;
+}
+.head_links .link a:hover{
+  color : orange;
+}
+
+@media screen and (max-width : 471px){
+  .header_section{
+    justify-content : center;
+    gap : 1rem;
+  }
+}
+
+.home_section{
+   min-height : 90vh;
+   width : 100%;
+   text-align : center;
+   display : flex;
+   flex-direction : column;
+   align-items : center;
+   justify-content : center;
+   padding : 10%;
+   background-image : url("car1.jpg");
+   background-size:cover;
+   background-position : center;
+}
+.home_title{
+  margin-bottom : 1rem;
+  color : #dfff00;
+}
+.home_para{
+  margin-bottom : 1rem;
+  color : #eeeeee;
+}
+.buttons_list{
+  list-style : none;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 1rem;
+  flex-wrap : wrap;
+}
+.buttons a{
+  text-decoration : none;
+  color : black;
+}
+.buttons button{
+  padding : 0.5rem;
+  border-radius : 10px;
+  outline : none;
+  border : none;
+  box-shadow : 1px 1px 3px black;
+  transition : 0.3s ease;
+}
+.buttons button:hover{
+  background-color : rgb(248, 183, 63);
+}
+
+@media screen and (max-width : 471px){
+  .home_section{
+    padding : 5%;
+  }
+}
