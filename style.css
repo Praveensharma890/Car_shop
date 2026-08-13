@@ -97,10 +97,9 @@
 
 .cars_section{
   width : 100%;
-  /* min-height : 100vh; */
   padding : 5%;
   text-align : center;
-  background-color : black;
+  background-color : #070709;
 }
 .cars_title{
   margin-bottom : 1rem;
@@ -142,7 +141,7 @@
   width : 100%;
   text-align : center;
   padding : 5%;
-  background-color : black;
+  background-color : #070709;
 }
 .service_title{
   color : white;
@@ -245,4 +244,83 @@
 }
 .choose_para{
    color: #eeeeee;
+}
+
+.contact_section{
+  width : 100%;
+  padding : 5%;
+  text-align : center;
+  background : #070709;
+}
+.contact_title{
+  margin-bottom : 1rem;
+  color : white;
+}
+.contact_subtitle{
+  margin-bottom : 1rem;
+  color :#eeeeee;
+}
+.contact_list{
+  list-style : none;
+  max-width : 1200px;
+  margin : auto;
+  margin-top : 1rem;
+  color : gray;
+}
+.contact_list i{
+  font-size : 1.5rem;
+  color : orange;
+}
+.enquiry_form{
+  margin-top : 2rem;
+}
+.enquire_form_heading{
+  color : white;
+}
+.enquiry_form form{
+  display : flex;
+  flex-direction : column;
+  align-items : left;
+  justify-content : center;
+  gap : 1rem;
+  box-shadow : 1px 1px 5px rgba(255, 255, 255, 0.694);
+  max-width : 500px;
+  padding : 2rem;
+  border-radius : 10px;
+  margin : auto;
+  margin-top : 2rem;
+  text-align : left;
+}
+.enquiry_form form input,textarea{
+  width : 100%;
+  padding : 0.5rem;
+  border-radius : 3px;
+  outline : none;
+  background-color : rgb(50, 50, 50);
+  color : white;
+  border : none;
+}
+
+.enquiry_form form label{
+  color : white;
+}
+
+.enquiry_form form button{
+  background-color : orange;
+  outline : none;
+  border : none;
+  cursor : pointer;
+   width : 100%;
+  padding : 0.5rem;
+  border-radius : 3px;
+  outline : none;
+}
+
+@media screen and (max-width : 500px){
+  .contact_list{
+    text-align : left;
+  }
+  .enquiry_form form{
+    padding : 2rem;
+  }
 }
