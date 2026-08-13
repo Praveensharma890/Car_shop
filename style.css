@@ -45,7 +45,7 @@
 }
 
 .home_section{
-   min-height : 90vh;
+   min-height : 100vh;
    width : 100%;
    text-align : center;
    display : flex;
@@ -91,14 +91,14 @@
 
 @media screen and (max-width : 471px){
   .home_section{
-    padding : 5%;
+    padding : 3%;
   }
 }
 
 .cars_section{
   width : 100%;
-  min-height : 100vh;
-  padding : 8%;
+  /* min-height : 100vh; */
+  padding : 5%;
   text-align : center;
   background-color : black;
 }
@@ -140,9 +140,8 @@
 
 .service_section{
   width : 100%;
-  min-height : 100vh;
   text-align : center;
-  padding : 8%;
+  padding : 5%;
   background-color : black;
 }
 .service_title{
@@ -186,6 +185,64 @@
   background-color :rgb(21, 31, 51);
   transition : 0.3s ease;
 }
+.service_card i{
+  color : white;
+}
+.service_card_heading{
+  color : white;
+}
+.service_para{
+  color: #eeeeee;
+}
 .service_card:hover{
   box-shadow : 1px 2px 5px white;
+}
+
+.about_section{
+  width : 100%;
+  text-align : center;
+  padding : 5%;
+  background-color:#070709;
+}
+.about_title{
+  color : white;
+  margin-bottom : 1rem;
+}
+.about_description{
+  color :#eeeeee;
+  max-width : 900px;
+  margin : auto;
+  margin-top : 0.5rem;
+}
+.about_description span{
+  color : orange;
+  font-weight : bold;
+  font-size : 1.1rem;
+}
+.why_choose_us{
+  color : white;
+  margin-top : 2rem;
+}
+.why_choose{
+    display : grid;
+    grid-template-columns : repeat(auto-fit,minmax(150px,1fr));
+    max-width : 800px;
+    gap : 0.5rem;
+    margin : auto;
+    margin-top : 2rem;
+}
+.choose_card{
+  padding : 0.5rem;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  justify-content : center;
+  border-radius : 5px;
+  box-shadow : 1px 1px 5px rgba(255, 255, 255, 0.565);
+}
+.choose_heading{
+    color : white;
+}
+.choose_para{
+   color: #eeeeee;
 }
