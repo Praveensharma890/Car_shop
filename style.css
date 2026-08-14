@@ -53,7 +53,7 @@
    align-items : center;
    justify-content : center;
    padding : 10%;
-   background-image : url("car1.jpg");
+   background-image : url("images/car1.jpg");
    background-size:cover;
    background-position : center;
 }
@@ -323,4 +323,61 @@
   .enquiry_form form{
     padding : 2rem;
   }
+}
+
+.footer_section{
+  width : 100%;
+  padding : 3%;
+  text-align : center;
+  background: #070709;
+  border-top : 1px solid white;
+}
+.foot_title{
+  margin-bottom : 1rem;
+  color : white;
+}
+.foot_description{
+  margin-bottom : 2rem;
+  color :#eeeeee;
+}
+.social_icons{
+  list-style : none;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 1rem;
+  margin : 1rem;
+  flex-wrap : wrap;
+}
+.social_icons li i{
+  font-size : 1.5rem;
+  color : #eeeeee;
+  transition : 0.3s ease;
+}
+.social_icons li i:hover{
+  color : orange;
+}
+.quick_links{
+  list-style : none;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 1rem;
+  margin : 1rem;
+  flex-wrap : wrap;
+}
+.quick_links li a{
+  color : #eeeeee;
+  text-decoration : none;
+  font-weight : bold;
+  transition : 0.3s ease;
+}
+.quick_links li a:hover{
+  color : orange;
+}
+.foot_copyright{
+  color : #eeeeee;
+}
+.privacy_policy{
+  color : #eeeeee;
 }
