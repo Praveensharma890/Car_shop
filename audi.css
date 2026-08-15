@@ -2,6 +2,7 @@
   margin : 0;
   padding : 0;
   box-sizing : border-box;
+  font-family : Arial, Helvetica, sans-serif;
 }
 body{
   padding : 3%;
@@ -20,10 +21,11 @@ body{
 .cars_card_section{
   width : 100%;
   display : grid;
-  grid-template-columns : repeat(auto-fit,minmax(360px,1fr));
+  grid-template-columns : repeat(auto-fit,minmax(250px,1fr));
   max-width : 900px;
   margin : auto;
   gap : 1rem;
+  margin-top : 2rem;
 }
 .car_card{
   text-align : center;
@@ -39,6 +41,7 @@ body{
 .img_cont{
   overflow : hidden;
   border-radius : 10px;
+  box-shadow : 1px 2px 6px rgba(255, 255, 255, 0.58);
 }
 .car_card img{
   object-fit : contain;
@@ -58,4 +61,8 @@ body{
   background : orange;
   outline : none;
   border : none;
+  transition : 0.3s ease;
+}
+.book_now:hover{
+  background : rgb(237, 175, 58);
 }
