@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="book_service.css" />
+  </head>
+  <body>
+    <h1 class="book_service_title">Book Your Service</h1>
+    <p class="book_service_description">
+      Book your car service quickly and easily. Fill in your car details, select
+      the required services, choose your prefered date and time, and submit your
+      booking request.
+    </p>
+    <form class="booking_form">
+      <label for="name">Full Name </label>
+      <input
+        type="text"
+        name="fullName"
+        id="name"
+        placeholder="Enter your name"
+      />
+      <label for="contact">Phone Numbar </label>
+      <input
+        type="text"
+        name="contact"
+        id="contact"
+        placeholder="Enter your phone number"
+      />
+      <label for="date">Prefered Date</label>
+      <input type="date" name="date" id="date" />
+      <label for="time">Prefered Time</label>
+      <input type="time" name="time" id="time" />
+      <label for="service">Select Service</label>
+      <select id="service" name="service">
+        <option value="">Choose a service</option>
+        <option value="General">general Service</option>
+        <option value="oil">Oil Change</option>
+        <option value="brake">Brake Service</option>
+        <option value="ac">AC Service</option>
+        <option value="wash">Car Wash</option>
+      </select>
+      <button class="book_service">Book Service</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+*{
+  padding : 0;
+  margin : 0;
+  box-sizing : border-box;
+  font-family : Arial, Helvetica, sans-serif;
+}
+body{
+  padding : 3%;
+  background : #070709;
+}
+.book_service_title{
+  text-align : center;
+  color : white;
+  margin-bottom : 1rem;
+}
+.book_service_description{
+  text-align : center;
+  color : #eeeeee;
+  margin-bottom : 1rem;
+}
+.booking_form{
+   max-width : 500px;
+   margin : auto;
+   margin-top : 2rem;
+   display : flex;
+   flex-direction : column;
+   align-items : left;
+   justify-content : center;
+   gap : 1rem;
+   padding : 2rem;
+   border : 1px solid white;
+   border-radius : 1rem;
+}
+.booking_form label{
+  color : white;
+}
+.booking_form input,.booking_form select,.booking_form button{
+  padding : 0.6rem;
+  border : none;
+  outline : none;
+  border-radius : 5px;
+}
+.booking_form input,.booking_form select{
+    background-color : rgb(50, 50, 50);
+    color : white;
+}
+.booking_form input:focus,.booking_form select:focus{
+   border : 2px solid orange;
+}
+.booking_form button{
+  background : orange;
+}
