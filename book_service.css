@@ -45,7 +45,8 @@ body{
     color : white;
 }
 .booking_form input:focus,.booking_form select:focus{
-   border : 2px solid orange;
+    border : 1px solid #d4af37;
+  box-shadow : 0 0 10px rgba(212,175,55,.25);
 }
 .booking_form button{
   background : orange;

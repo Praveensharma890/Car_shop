@@ -296,8 +296,16 @@
   background-color : rgb(50, 50, 50);
   color : white;
   border : none;
+  transition : 0.3s ease;
 }
-
+.enquiry_form form input:focus{
+  border : 1px solid #d4af37;
+  box-shadow : 0 0 10px rgba(212,175,55,.25);
+}
+.enquiry_form form textarea:focus{
+  border : 1px solid #d4af37;
+  box-shadow : 0 0 10px rgba(212,175,55,.25);
+}
 .enquiry_form form label{
   color : white;
 }
