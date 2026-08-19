@@ -37,7 +37,7 @@
   color : orange;
 }
 
-@media screen and (max-width : 471px){
+@media screen and (max-width : 523px){
   .header_section{
     justify-content : center;
     gap : 1rem;
