@@ -155,6 +155,7 @@
   outline : none;
   border : none;
   margin-top : 1rem;
+  cursor : pointer;
 }
 .book_service_btn:hover{
   background-color : orange;

@@ -50,4 +50,5 @@ body{
 }
 .booking_form button{
   background : orange;
+  cursor : pointer;
 }
